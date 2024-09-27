@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSTEL WEBSITE</title>
+    <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="hostel.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="hostel.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES </a></li>
+                    
+                    
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="login.html">LOGOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+    
+
+    </section>
+    <section class="services">
+        <h1>Services We Offer</h1>
+        <p>Internet services available for 24X7, water cooler is availabe as well as gym facility is also being provided.</p>
+        <div class="row">
+            <div class="services-col">
+                <h3>Facilities Available in AC Hostel</h3>
+                <p>The hostel rooms are spacious with natural light and ventilation.Each student is provided with a study table and chair.The hostel has 24 hour electricity and water supply.</p>
+
+
+            </div>
+            <div class="services-col">
+                <h3>Facilities available in non AC hostel</h3>
+                <p>The hostel rooms are spacious and well ventilated. Each room has an attached bathroom.Each student is provided with a table and chair.There is 24 hour electricity and water supply along with internet connection.  </p>
+
+            </div>
+            <div class="services-col">
+                <h3>Facilities available in executive hostel.</h3>
+                <p>The hostel rooms are well ventilates and spacious. Each student is provided with a study table and chair.The facility of AC, fridge and induction is also available.  </p>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="Facilities">
+        <h1>Our Facilities</h1>
+        <p>We provide all the facilitties in the hostel.The student will not face any kind of problem in this hostel.</p>
+        <div class="row">
+            <div class="Facilities-col">
+                <img src="gym6.jpg">
+                <h3>Gym</h3>
+                <p>The hostel is well equippes with gym facility.Various kind of fitness equipments are there in the hostel.</p>
+            </div>
+            <div class="Facilities-col">
+                <img src="library.jpg">
+                <h3>Library</h3>
+                <p>The hostel has a library where students can read various kind of books and hence can improve their knowledge.</p>
+            </div>
+            <div class="Facilities-col">
+                <img src="playground.jpg">
+                <h3>Playground</h3>
+                <p>The hostel has a vast playground where students can play different sports and can do various kind of workout.</p>
+                
+            </div>
+        </div>
+
+
+
+    </section>
+    
+    
+   
+    <section class="footer">
+        <h4>About Us </h4>
+        <p>Typically the hotel features a large room with separate beds and a communal kitchen.<br>This hostel has been originated in India and now is gaining a lot of popularity.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by AARUSHI GUPTA and ABHAY CHHILLAR</p>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!----USING JAVASCRIPT FOR TOGGLE MENU-->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0;"
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>

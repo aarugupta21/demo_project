@@ -1,2 +1,2 @@
 # demo_project
-this project is my irst project on github repository.
+this project is my first project on github repository.
